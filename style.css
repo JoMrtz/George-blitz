@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 100vh;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
+.pantalla {
+    width: 350px;
+    height: 500px;
+    background-color: green;
+}
+
+.btn {
+    width: 100px;
+    min-height: 25px;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.equipos {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+}
+
+.equipos::placeholder {
+    color: white;
+    font-weight: bold;
+}
